@@ -9,6 +9,7 @@
 <meta name="generator" content="pandoc" />
 
 
+<meta name="author" content="Daniel Wasonga" />
 
 
 <title>IODS course project</title>
@@ -90,8 +91,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -100,14 +107,74 @@ button.code-folding-btn:focus {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -118,12 +185,14 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">IODS course project</h1>
+<h4 class="author"><em>Daniel Wasonga</em></h4>
 
 </div>
 
 <div id="TOC">
 <ul>
 <li><a href="#about-the-project">About the project</a></li>
+<li><a href="#my-expectations-of-the-course-are">My expectations of the course are:</a></li>
 <li><a href="#insert-chapter-2-title-here">Insert chapter 2 title here</a></li>
 </ul>
 </div>
@@ -132,6 +201,11 @@ $(document).ready(function () {
 <div id="about-the-project" class="section level1">
 <h1>About the project</h1>
 <p><em>Write a short description about the course and add a link to your GitHub repository here. This is an R Markdown (.Rmd) file so you can use R Markdown syntax.</em></p>
+</div>
+<div id="my-expectations-of-the-course-are" class="section level1">
+<h1>My expectations of the course are:</h1>
+<p><em>To be able to execute various <em>regression models</em> with r </em>Improve my coding <em>Sytematically arrange r files for easy retrieval </em>Learn r graphic techniques + skilled in Rmd</p>
+<p>(<a href="https://github.com/dwasonga/IODS-project" class="uri">https://github.com/dwasonga/IODS-project</a>)</p>
 <hr />
 </div>
 <div id="insert-chapter-2-title-here" class="section level1">

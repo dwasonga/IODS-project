@@ -2,3 +2,13 @@
 # About the project
 
 *Write a short description about the course and add a link to your GitHub repository here. This is an R Markdown (.Rmd) file so you can use R Markdown syntax.*
+
+#My expectations of the course are:
+*To be able to execute various _regression models_ with r
+*Improve my coding
+*Sytematically arrange r files for easy retrieval
+*Learn r graphic techniques
++ skilled in Rmd
+
+(https://github.com/dwasonga/IODS-project)
+
